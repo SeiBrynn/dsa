@@ -1,0 +1,94 @@
+/*body styling*/
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #FFB347, white);
+    font-family: 'Arial', sans-serif;
+}
+
+/*login form styling*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+    color: #333;
+}
+
+.textbox input:focus {
+    border-bottom: 2px solid #ff7e5f;
+}
+
+/*button styling*/
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #FFB347;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    background: #feb47b;
+}
+
+/*title styling*/
+h1 {
+    text-align:center;
+    font-size:50px;
+  top: 200px;
+  margin: 0px;
+  padding: 0%;
+}
+
+.titlepos {
+   text-align: center;
+   position: top;
+    
+    
+}
+.textpos {
+text-align: center;
+position: top   ;
+}
+
